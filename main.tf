@@ -1,10 +1,4 @@
 
-# input variable
-variable "file_contents" {
-  type    = string
-  default = "hello world"
-}
-
 # local file
 resource "local_file" "test_file" {
   content = var.file_contents
